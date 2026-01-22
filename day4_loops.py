@@ -17,14 +17,22 @@ print(total)
 """
 
 #pattern
+"""
 pattern = input("Input your symbol: ")
 
 for i in range(1,6):
     print(f"{pattern * i}")
-
+"""
 #pattern reverse
-
+"""
 pattern = input("Input your symbol: ")
 
 for i in range(5,0,-1):
     print(f"{pattern * i}")
+"""
+#pattern new
+
+pattern = "*"
+
+for i in range(1,6):
+    print(f"{pattern * i}", sep=" ")
