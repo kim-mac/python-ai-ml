@@ -15,6 +15,23 @@ for i in range(1,101):
 
 print(total)
 """
+#while loop
+"""
+i = 3
+while i !=0:
+    print("meow")
+    i -= 1
+"""
+
+while True:
+    n = int(input("Enter n"))
+    if n < 0:
+        print("Invalid value")
+        continue
+    else:
+        break
+for i in range(n):
+    print("meow")
 
 #pattern
 """
@@ -31,8 +48,9 @@ for i in range(5,0,-1):
     print(f"{pattern * i}")
 """
 #pattern new
-
+"""
 pattern = "*"
 
 for i in range(1,6):
-    print(f"{pattern * i}", sep=" ")
+    print(f"{pattern * i}")
+"""
