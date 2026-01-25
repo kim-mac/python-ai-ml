@@ -75,7 +75,7 @@ print("Correct")
 """
 
 #list
-
+"""
 students = ["glen","sania","kim","clive"]
 
 #for student in students:
@@ -83,4 +83,15 @@ students = ["glen","sania","kim","clive"]
 #
 
 for i in range(len(students)):
-    print(i+1, students[i])    
+    print(i+1, students[i])
+"""
+
+#dict
+students = {
+    "Kim":"Cherly",
+    "Glen":"Sania",
+    "Clive":"Caris"
+}
+
+for student in students:
+    print(student, students[student], sep=", ")
