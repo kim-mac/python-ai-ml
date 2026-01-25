@@ -23,6 +23,8 @@ while i !=0:
     i -= 1
 """
 
+#print meow
+"""
 while True:
     n = int(input("Enter n"))
     if n < 0:
@@ -32,6 +34,7 @@ while True:
         break
 for i in range(n):
     print("meow")
+"""
 
 #pattern
 """
@@ -53,4 +56,15 @@ pattern = "*"
 
 for i in range(1,6):
     print(f"{pattern * i}")
+
 """
+
+#guess
+
+secrect = 7
+guess = 0
+
+while guess != secrect:
+    guess = int(input("Enter your number"))
+
+print("Correct")    
