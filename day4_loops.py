@@ -37,12 +37,16 @@ for i in range(n):
 """
 
 #pattern
-"""
+
 pattern = input("Input your symbol: ")
 
 for i in range(1,6):
-    print(f"{pattern * i}")
-"""
+    for j in range (i):
+        print(f"{pattern}", end="")
+    print()    
+
+       
+
 #pattern reverse
 """
 pattern = input("Input your symbol: ")
@@ -60,7 +64,7 @@ for i in range(1,6):
 """
 
 #guess
-
+"""
 secrect = 7
 guess = 0
 
@@ -68,3 +72,4 @@ while guess != secrect:
     guess = int(input("Enter your number"))
 
 print("Correct")    
+"""
