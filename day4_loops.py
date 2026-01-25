@@ -37,7 +37,7 @@ for i in range(n):
 """
 
 #pattern
-
+"""
 pattern = input("Input your symbol: ")
 
 for i in range(1,6):
@@ -45,7 +45,7 @@ for i in range(1,6):
         print(f"{pattern}", end="")
     print()    
 
-       
+ """      
 
 #pattern reverse
 """
@@ -73,3 +73,14 @@ while guess != secrect:
 
 print("Correct")    
 """
+
+#list
+
+students = ["glen","sania","kim","clive"]
+
+#for student in students:
+#   print(student)
+#
+
+for i in range(len(students)):
+    print(i+1, students[i])    
