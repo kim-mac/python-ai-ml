@@ -7,7 +7,7 @@ for i in range(1, 6):
     print()
 """
 
-marks = [1,2,3]
+marks = []
 
 for i in range(5):
     score = int(input(f"Enter marks for student {i+1}: "))
