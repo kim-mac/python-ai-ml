@@ -18,23 +18,28 @@ print("Average:", sum(marks) / len(marks))
 print("Highest:", max(marks))
 print("Lowest:", min(marks))
 """
-"""
-def main():
-    print(f"{r}")
-    arr() 
 
-def arr(r):
+
+def main():    
+    array = arr()
+    printa(array) 
+
+
+def arr():
     arrays = [1,2,3,4,5]
 
     for i in range(len(arrays)):
-       if arrays[i] == 3:
-         return i 
+       if i == 3:
+         return i
+       
+    
+    return("Not found") 
+       
+def printa(n):
+   print(n)
+           
 
 main()
-"""
-#exercise
 
-expense_data = [2200,2350,2600,2130,2190]
 
-print("i spent",expense_data[2]-expense_data[1], "extra")
 
