@@ -72,7 +72,7 @@ main()
 #prompt format
 
 def main():
-    x = get_int("Whats x")
+    x = get_int("Whats x: ")
     print(f"The number is {x}")
 
 def get_int(prompt):

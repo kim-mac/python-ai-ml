@@ -2,6 +2,7 @@ import random   #can also use "from random import choice" just to be specific an
 import statistics #for mean
 import sys #for input from the command line/terminal
 
+"""
 #coin flip
 coin = random.choice(["heads","tails"])
 print(coin)
@@ -19,6 +20,20 @@ print(cards)
 avg = statistics.mean([10,45,78])
 print(avg)
 
+
 #sys.argv example
+if len(sys.argv)< 2:
+    sys.exit("Too less arguments")
+elif len(sys.argv) > 2:
+    sys.exit("Too many arguments")
 
 print("Hello my name is", sys.argv[1])
+"""
+
+#sys.argv example 2 (slicing)
+
+if len(sys.argv) < 2:
+    sys.exit("Too less arguments")
+
+for arg in sys.argv[1:]:
+    print("My name is", arg)    

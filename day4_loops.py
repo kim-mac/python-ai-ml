@@ -87,6 +87,7 @@ for i in range(len(students)):
 """
 
 #dict
+"""
 students = {
     "Kim":"Cherly",
     "Glen":"Sania",
@@ -95,3 +96,11 @@ students = {
 
 for student in students:
     print(student, students[student], sep=", ")
+"""
+#pattern
+symbol = input("Input your symbol: ")
+
+for i in range(1, 6):
+    for j in range(i):
+        print(symbol, end="")
+    print()
