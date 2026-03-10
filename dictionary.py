@@ -10,6 +10,7 @@ for key,value in student.items():                              #to loop through 
 
 #del student["name"]            #delete some data
 #name = student.pop("name")     #can remove the desired value and return it
+student.popitem()                 #removes the last item
 
 print(student.get("Major"))       #can get values and if a value isnt present returns none
 
