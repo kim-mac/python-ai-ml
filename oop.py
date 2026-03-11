@@ -1,9 +1,18 @@
 class Student:
-    ...
+    def __init__(self, name, house):
+        if not name:
+            raise ValueError
+        if house not in ["h","p","q","d"]:
+            raise ValueError("Invalid house")
+        self.name = name
+        self.house = house
+
+    def __str__(self):
+        return f"{self.name} is in {self.house}"
 
 def main():
     student = get_student()
-    print(f"{student.name} is in {student.house}")
+    print(student)
 
 
 def get_student():
@@ -19,10 +28,10 @@ def get_student():
     #return student
 
     #method 3 using class and objects
-    student = Student()                #objects are mutable but can be made immutable
-    student.name = input("Name: ")
-    student.house = input("House:")              
-    return student
+    name = input("Name: ")
+    house = input("House:")  
+    return Student(name, house)                #objects are mutable but can be made immutable            
+    
 
 
 if __name__ == "__main__":
