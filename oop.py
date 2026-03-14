@@ -24,7 +24,7 @@ class Student:
 def main():
     student = get_student()
     print("Expecto Petronium")
-    print(student.charm)
+    print(student.charm())
 
 
 def get_student():
